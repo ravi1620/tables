@@ -1,0 +1,35 @@
+table{
+    width: 50%;
+    border: 2px solid black;
+    border-collapse:collapse;
+    background-color: bisque;
+}
+td,th{
+    text-align: center;
+    border: 2px solid black;
+}
+tr:nth-child(even){
+    background-color: rgb(158, 158, 207);
+} 
+.main1{
+    background-color: deepskyblue;
+}
+ tr:nth-child(odd){
+    background-color: rgb(118, 118, 129);
+} 
+.subHead{
+    background-color: rgb(73, 163, 73);
+}
+
+#table2{
+    border-collapse:separate;
+    border-radius: 20px;
+}
+.table2Row{
+    border-radius: 20px;
+}
+
+
+.firstDiv{
+    background-color: chartreuse;
+}
